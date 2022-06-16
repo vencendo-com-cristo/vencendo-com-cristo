@@ -1,34 +1,20 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'text';
-    src: url('Dinosaur.ttf') format('opentype');
-}
-
-:root {
-    --teste : 'text';
-    --cor : rgb(255, 255, 255); 
-}
-
-.conteúdo {
-    font-family: var(--teste);
-}
-
-
 *{
     margin: 0;
     box-sizing: border-box;
 }
 
-body {
-    display: flex ;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: rgb(11, 10, 10);
+@font-face {
+    font-family: 'text';
+    src: url('Dinosaur.ttf') format('opentype');
 }
 
-
+/*variaveis*/
+:root {
+    --teste : 'text';
+    --cor : rgb(255, 255, 255); 
+}
 
 #tudo {
     position: relative;
@@ -71,41 +57,18 @@ body {
 }
 
 
-
-
-
-
-
-
-.rodapé {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   padding-top: 55px;
+body {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(11, 10, 10);
 }
-
-h1 {
-    display: flex;
-    
-
-}
-
 
 .cabeçalho {
     position: relative;
     z-index: 10;
 }
-
-.conteúdo {
-    position: relative;
-    z-index: 10;
-}
-
-.rodapé {
-    position: relative;
-    z-index: 10;
-}
-
 
 .cabeçalho > img {
     height: 250px;
@@ -118,10 +81,45 @@ h1 {
    
 }
 
-.tudo {
-    display: block;
+
+.conteúdo {
+    font-family: var(--teste);
+    position: relative;
+    z-index: 10;
+}
+
+.conteúdo > h1 {
+    display: flex;
+    font-family: var(--teste);
+    color: var(--cor);
+}
+
+#toque {
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+#desbloq {
+    justify-content: center;
+    text-align: center;
 
 }
+
+.rodapé {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 55px;
+   position: relative;
+    z-index: 10;
+}
+
+
 
 #toque {
     margin: auto;
