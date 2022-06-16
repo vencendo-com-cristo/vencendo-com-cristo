@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'text';
-    src: url('Dinosaur.ttf') format('opentype');
-}
 
 /*variaveis*/
 :root {
@@ -88,11 +84,11 @@ body {
     z-index: 10;
 }
 
-.conteúdo > h1 {
+.conteúdo >h1 {
     display: flex;
-    font-family: var(--teste);
-    color: var(--cor);
 }
+
+
 
 #toque {
     margin: auto;
