@@ -16,7 +16,7 @@
     position: relative;
     justify-content: center;
     align-items: center;
-    background-color: rgba(233, 0, 0, 0.4);
+    background-color: rgba(0, 255, 195, 0.64);
     overflow: hidden;
     border-radius:20px ;
     width: 600px;
@@ -28,7 +28,7 @@
     position: absolute;
     width: 600px;
     height: 200%;
-    background: linear-gradient(#ffff00, #ff0000);
+    background: linear-gradient(#07f1d6, #2041ff);
     animation: animate 10s linear infinite;
     border-radius: 20px;
 }
@@ -67,8 +67,8 @@ body {
 }
 
 .cabeçalho > img {
-    height: 250px;
-   width: 300px;
+    height: 280px;
+   width: 400px;
    margin: auto;
    top: 0;
    left: 0;
@@ -136,4 +136,3 @@ body {
     text-align: center;
 
 }
-
